@@ -5,7 +5,7 @@ pipeline {
       stage('First') {
          steps {
             sh"""
-            mvn -version
+            echo 'Hello World'
             """
          }
       }
