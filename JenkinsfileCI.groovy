@@ -4,24 +4,22 @@ pipeline {
    stages {
       stage('First') {
          steps {
-            sh"""
-            echo 'Hello World'
-            """
+            print ('First')
          }
       }
       stage('Second') {
          steps {
-            echo 'Hello World'
+            print ('Second')
          }
       }
       stage('Third') {
          steps {
-            echo 'Hello World'
+            print ('Third')
          }
       }
       stage('Four') {
          steps {
-            echo 'Hello World'
+            print ('Four')
          }
       }
    }
